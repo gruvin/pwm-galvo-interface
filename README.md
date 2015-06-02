@@ -8,7 +8,7 @@ of the two galvanometer driver boards.
 ![https://raw.githubusercontent.com/gruvin/pwm-galvo-interface/master/images/laser-galvo-interface-3d.png]
 (https://raw.githubusercontent.com/gruvin/pwm-galvo-interface/master/images/laser-galvo-interface-3d.png)
 
-The above image is about double actual size, on my iMac 27" screen.
+The above image is about double actual size, on my iMac 27" screen. (109DPI)
 
 This design (using DipTrace) has been built and tested. It works surprisingly well. I run the PCM frequency 
 at between 800KHz and 1MHz on the PWM input side (from an Arduino or Maximite, for example) and the results 
