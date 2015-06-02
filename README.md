@@ -16,7 +16,7 @@ at the other end of the galvanometer interface, mirrors, laser etc is pretty dar
 
 The high frequency PWM allows an order of magnitude higher laser direction precision. However, the board will 
 work down to around 200KHz -- and lower if the LPF capacitance is increased. But then the laser starts to make 
-rounded corners, instead of crisp, sharp turns of the kind I need for a project in mind.
+rounded corners, instead of crisp, sharp turns of the kind I need for a project in mind. It seems that even cheap Chinese galvanometers are astonishingly fast and accurate! 
 
 Having completed this exercise, I now intend removing all the analogue electronics of the galvanometer 
 interface itself and making my own PID controller, fully digital -- except the galvanometers themselves, 
