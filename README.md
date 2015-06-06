@@ -1,4 +1,4 @@
-###A two channel 0-3.3V PWM to +/-5VDC converter for use with laser galvanometers
+###A two channel, 3.3V PWM to +/-5VDC converter, for use with laser galvanometers
 
 This interface board takes two raw PWM (0-3.3V) inputs from a microcontroller, low pass filters 
 them and translates the analogue result into two +/-5VDC, balanced outputs -- the latter being 
