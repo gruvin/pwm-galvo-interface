@@ -12,7 +12,7 @@ The above image is about double actual size, on my iMac 27" screen. (109DPI)
 
 This design (using DipTrace) has been built and tested. It works surprisingly well. I run the PCM frequency 
 at between 800KHz and 1MHz on the PWM input side (from an Arduino or Maximite, for example) and the results 
-at the other end of the galvanometer interface, mirrors, laser etc is pretty darn good. 
+at the other end of the galvanometer interface, mirrors, laser etc is pretty darn good -- especially considering I didn't add any AC bypass capaitors in the op-amp feedback paths. Slew rates are still more than acceptable.
 
 The high frequency PWM allows an order of magnitude higher laser direction precision. However, the board will 
 work down to around 200KHz -- and lower if the LPF capacitance is increased. But then the laser starts to make 
