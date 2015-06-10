@@ -21,3 +21,11 @@ rounded corners, instead of crisp, sharp turns of the kind I need for a project 
 Having completed this exercise, I now intend removing all the analogue electronics of the galvanometer 
 interface itself and making my own PID controller, fully digital -- except the galvanometers themselves, 
 of course. There will no longer be a need for this board. But it was well worth the experiment.
+
+## NOTES
+
+The file `galv-pos-re.dch` is a reverse engineered schematic (DipTrace) of the galvonometer position feedback circuit, as found on the Chinese laser galv boards I purchased on eBay. Those clever peoples have used a cheaper, non-linear, "one IR LED and two IR photo-diodes in photovoltaic mode (balanced)" arrangement inside the galvanometers and instead built a slightly more complex differential amplifier, incorporating some clever lineraity compensation circuity -- which appears to even include varying the LED brightness slightly, along with direct voltage curve augmentation at the input of the differential amplifier. I've never seen anything quite like this before -- though I suppose it's all too common, in reality. Respect! :-P
+
+
+
+
